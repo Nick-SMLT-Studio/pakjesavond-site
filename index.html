@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#1E0E09">
+  <meta name="description" content="Privacybeleid van de app Pakjespaniek: er worden geen gegevens verzameld. Privacy policy of the Pakjespaniek app: no data collected.">
+  <title>Privacybeleid · Pakjespaniek</title>
+  <!-- Bewust zonder externe fonts, scripts of trackers: deze pagina laadt niets van derden. Host: Nick-SMLT-Studio/pakjesavond-site. -->
+  <style>
+    :root {
+      --tafel: #1E0E09; --tafel-diep: #120806; --room: #F6EBD9; --room-2: #EADBC2; --room-3: #D9C4A3;
+      --choc: #3B2014; --wijn: #5E0B1E; --rood: #B5172F; --goud: #E2A72E; --marsepein: #FF5C9E;
+      --foil: linear-gradient(176deg, #FFF6D6 0%, #FBD877 34%, #E3A43A 62%, #FFE3A0 82%, #C98A22 100%);
+      --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, ui-serif, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Roboto, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0; min-height: 100vh; color: var(--choc); font: 17px/1.6 var(--sans);
+      background:
+        radial-gradient(ellipse 70% 44% at 50% 0%, rgb(255 183 90 / .22), transparent 72%),
+        radial-gradient(ellipse 85% 70% at 50% 40%, transparent 40%, rgb(18 8 6 / .8) 100%),
+        var(--tafel);
+      padding: max(28px, env(safe-area-inset-top)) 16px 56px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    header { text-align: center; color: var(--room); margin: 12px 0 28px; }
+    .eyebrow { font: 700 12px/1 var(--sans); letter-spacing: .22em; text-transform: uppercase; color: var(--goud); }
+    .mark { display: inline-flex; align-items: flex-end; gap: .1em; margin: 14px 0 6px; }
+    .mark b {
+      font: 900 clamp(44px, 11vw, 72px)/.9 var(--serif); letter-spacing: -.02em;
+      background: var(--foil); -webkit-background-clip: text; background-clip: text; color: transparent;
+      filter: drop-shadow(0 3px 0 #5C3504);
+      padding-bottom: .12em;
+    }
+    .mark i {
+      font: 900 clamp(20px, 5vw, 30px)/1 var(--sans); font-style: normal; letter-spacing: .02em;
+      color: var(--tafel-diep); background: var(--marsepein); padding: .18em .4em .12em;
+      transform: rotate(-4deg) translateY(-.35em); box-shadow: 3px 3px 0 var(--tafel-diep); border-radius: 3px;
+    }
+    nav { display: flex; justify-content: center; gap: 8px; margin-top: 18px; }
+    nav a {
+      color: var(--room); text-decoration: none; font: 600 14px/1 var(--sans); letter-spacing: .04em;
+      padding: 10px 16px; border-radius: 999px; background: #2C1710; border: 1px solid #432519;
+    }
+    nav a:focus-visible, nav a:hover { border-color: var(--goud); }
+    .paper {
+      background: var(--room); border-radius: 6px; padding: 28px 22px 30px; margin-bottom: 28px;
+      box-shadow: 0 1px 0 var(--room-3), 0 18px 40px rgb(0 0 0 / .45);
+      position: relative;
+    }
+    .paper::before { /* gekartelde bovenrand, zoals een kaartje van de rol */
+      content: ""; position: absolute; left: 0; right: 0; top: -7px; height: 8px;
+      background: radial-gradient(circle at 6px 8px, var(--room) 5px, transparent 5.5px) 0 0 / 12px 8px repeat-x;
+    }
+    h1 { font: 800 clamp(28px, 6vw, 36px)/1.1 var(--serif); color: var(--wijn); margin: 0 0 6px; }
+    .date { font-size: 14px; color: #7A5A44; margin: 0 0 20px; }
+    .tldr {
+      background: var(--wijn); color: var(--room); border-radius: 4px; padding: 16px 18px; margin: 0 0 22px;
+      font-weight: 600;
+    }
+    .tldr strong { color: #FFE3A0; }
+    h2 { font: 700 20px/1.25 var(--serif); color: var(--wijn); margin: 26px 0 6px; }
+    p, ul { margin: 0 0 12px; }
+    ul { padding-left: 1.2em; }
+    li { margin: 4px 0; }
+    a { color: var(--rood); text-underline-offset: 2px; }
+    .label {
+      display: inline-block; margin-top: 8px; border: 2px solid var(--choc); border-radius: 4px; padding: 6px 10px;
+      font: 800 13px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; transform: rotate(-1.5deg);
+    }
+    footer { text-align: center; color: #A8907A; font-size: 13px; }
+    @media (min-width: 640px) { .paper { padding: 40px 48px 44px; } }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Privacybeleid · Privacy policy</div>
+    <div class="mark" aria-label="Pakjespaniek"><b aria-hidden="true">Pakjes</b><i aria-hidden="true">PANIEK</i></div>
+    <nav aria-label="Taal / Language"><a href="#nl" hreflang="nl">Nederlands</a><a href="#en" hreflang="en">English</a></nav>
+  </header>
+
+  <main>
+    <article class="paper" id="nl" lang="nl">
+      <h1>Privacybeleid</h1>
+      <p class="date">Geldig vanaf 5 oktober 2026 · app Pakjespaniek (iPhone)</p>
+      <p class="tldr">Kort gezegd: <strong>we verzamelen niets.</strong> Geen account, geen analytics, geen advertenties, geen tracking. Alles wat je in de app invult, blijft op je eigen telefoon.</p>
+
+      <h2>Wie zijn wij</h2>
+      <p>Pakjespaniek is gemaakt door SMLT Studio (Nick den Turck), Nederland. Vragen over privacy: <a href="mailto:info@smltstudio.nl">info@smltstudio.nl</a>.</p>
+
+      <h2>Wat er op je telefoon blijft</h2>
+      <p>De app bewaart spelersnamen, je instellingen, een spel dat nog loopt en of je Pakjes Plus hebt gekocht. Dat staat alleen lokaal op je toestel. Het wordt nooit naar ons of naar iemand anders gestuurd. Verwijder je de app, dan is alles weg.</p>
+
+      <h2>Uitgepakt-kaarten delen</h2>
+      <p>Na het spel maakt de app deelkaarten met de uitslag. Die worden op je telefoon gemaakt. Pas als jij zelf op delen tikt, gaat de afbeelding naar de app die jij kiest (bijvoorbeeld Berichten); vanaf dat moment geldt het beleid van die app. Kindernamen staan op de kaarten standaard als initiaal. De QR-code op een kaart bevat alleen de openbare App Store-link.</p>
+
+      <h2>Foto's</h2>
+      <p>De app vraagt alleen toestemming om een afbeelding <em>toe te voegen</em> aan Foto's, en pas op het moment dat je een kaart bewaart. De app kan je fotobibliotheek niet bekijken.</p>
+
+      <h2>Aankopen</h2>
+      <p>Pakjes Plus koop je via de App Store van Apple. De betaling loopt volledig via Apple; wij ontvangen geen naam, e-mailadres of betaalgegevens. Zie het <a href="https://www.apple.com/nl/legal/privacy/">privacybeleid van Apple</a>.</p>
+
+      <h2>Geen diensten van derden</h2>
+      <p>Er zit geen analytics-, advertentie- of crashrapportage-software in de app en er is geen server. De onderdelen die de app gebruikt (zoals trillen, delen en het scherm aan houden) werken lokaal op je telefoon. Vraagt de app soms om een beoordeling, dan gebruikt hij het standaardvenster van iOS; dat loopt via Apple.</p>
+
+      <h2>Kinderen</h2>
+      <p>De app is bedoeld voor het hele gezin en wordt bediend door een volwassene. Omdat we van niemand gegevens verzamelen, verzamelen we ook geen gegevens van kinderen.</p>
+
+      <h2>Je rechten</h2>
+      <p>Onder de AVG heb je recht op inzage, correctie en verwijdering. Omdat wij geen gegevens van je hebben, is er bij ons niets in te zien of te wissen. Je gegevens in de app beheer je zelf; met een vraag kun je altijd mailen.</p>
+
+      <h2>Wijzigingen</h2>
+      <p>Verandert dit beleid, dan staat de nieuwe versie op deze pagina met een nieuwe datum. Gaat de app ooit wel gegevens verzamelen, dan vragen we dat eerst in de app.</p>
+      <span class="label">App Store: geen gegevens verzameld</span>
+    </article>
+
+    <article class="paper" id="en" lang="en">
+      <h1>Privacy policy</h1>
+      <p class="date">Effective 5 October 2026 · Pakjespaniek app (iPhone), also known as Gift Panic</p>
+      <p class="tldr">In short: <strong>we collect nothing.</strong> No account, no analytics, no ads, no tracking. Everything you enter in the app stays on your own phone.</p>
+
+      <h2>Who we are</h2>
+      <p>Pakjespaniek is made by SMLT Studio (Nick den Turck), the Netherlands. Privacy questions: <a href="mailto:info@smltstudio.nl">info@smltstudio.nl</a>.</p>
+
+      <h2>What stays on your phone</h2>
+      <p>The app stores player names, your settings, a game in progress and whether you bought the Plus upgrade. This is kept only on your device. It is never sent to us or to anyone else. Delete the app and it is all gone.</p>
+
+      <h2>Sharing result cards</h2>
+      <p>After a game the app creates shareable cards with the results. They are made on your phone. Only when you tap share does the image go to the app you choose (for example Messages); from then on that app's policy applies. Children's names show as initials on the cards by default. The QR code on a card only contains the public App Store link.</p>
+
+      <h2>Photos</h2>
+      <p>The app only asks permission to <em>add</em> an image to Photos, and only when you save a card. The app cannot see your photo library.</p>
+
+      <h2>Purchases</h2>
+      <p>The Plus upgrade is bought through Apple's App Store. Payment is handled entirely by Apple; we receive no name, email address or payment details. See <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+
+      <h2>No third-party services</h2>
+      <p>The app contains no analytics, advertising or crash-reporting software and there is no server. The components it uses (such as haptics, sharing and keeping the screen on) run locally on your phone. If the app asks for a rating, it uses the standard iOS prompt, which is handled by Apple.</p>
+
+      <h2>Children</h2>
+      <p>The app is meant for the whole family and is operated by an adult. Because we collect no data from anyone, we collect no data from children.</p>
+
+      <h2>Your rights</h2>
+      <p>Under the GDPR you have the right to access, correct and erase your data. Since we hold no data about you, there is nothing for us to show or delete. You manage the data in the app yourself; feel free to email with any question.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the new version will appear on this page with a new date. Should the app ever collect data, we will ask in the app first.</p>
+      <span class="label">App Store: Data Not Collected</span>
+    </article>
+  </main>
+
+  <footer>© 2026 SMLT Studio · <a href="mailto:info@smltstudio.nl" style="color:inherit">info@smltstudio.nl</a></footer>
+</div>
+</body>
+</html>
